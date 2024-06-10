@@ -1,0 +1,170 @@
+.navbar-brand {
+    color: rgb(130, 60, 150);
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.25em;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link:hover {
+    color:rgb(130, 60, 150);
+    font-weight: bold;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color:rgb(130, 60, 150);
+}
+
+#frase {
+    max-height: 300px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: rgb(130, 60, 150);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#projetos {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#principal {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projetoimg:hover {
+    opacity: 0.3;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+.titulo {
+    margin-top: 20px;
+    background-color: rgb(130, 60, 150);
+    color: white;
+    min-height: 80px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#sobretexto {
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 5%;
+}
+
+#sobreimg {
+    filter: drop-shadow(3px 2px rgb(214, 214, 214));
+}
+
+#sobremim {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#contato {
+    width: 100%;
+    margin-top: 75px;
+}
+
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.campo {
+    margin-bottom: 15px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input,textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: rgb(130, 60, 150);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+}
+  
+button:hover {
+    opacity: 0.3;
+}
+
+#capa {
+    margin-top: 40px;
+}
+
+.textoprojeto {
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.col-sm-6 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#botao {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.col {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#grid {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+}
